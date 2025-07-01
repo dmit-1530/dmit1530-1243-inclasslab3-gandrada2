@@ -23,6 +23,7 @@ body {
 h1 {
     font-size: 1.65rem;
     font-weight: normal;
+    margin-bottom: 1rem;
 }
 
 /* Header Styles */
@@ -33,6 +34,40 @@ header {
     box-shadow: var(--box-shadow);
     padding: 0.5rem;
 }
+
+.sr-only{
+    display:none;
+}
+
+
+ul svg{
+    width: 1.75rem;
+    margin-right: 1rem;
+}
+
+nav{
+    margin:0 auto;
+    max-width:72rem;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+
+ul a{
+    color: var(--link);
+    display:flex;
+    justify-content:left;
+    text-align:center;
+    padding: 1rem;
+    text-decoration:none;
+}
+
+
+ul a:hover {
+    color: var(--accent);
+}
+
 
 /* Media Query */
 
