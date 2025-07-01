@@ -42,24 +42,24 @@ header {
 
 ul svg{
     width: 1.75rem;
-    margin-right: 1rem;
+    margin: 0;
 }
 
 nav{
-    margin:0 auto;
     max-width:72rem;
 }
+
 ul{
     margin:0;
     padding:0;
 }
 
-ul a{
-    color: var(--link);
+ul a {
     display:flex;
     justify-content:left;
     text-align:center;
-    padding: 1rem;
+    gap: 1rem;
+    padding: 1rem 0;
     text-decoration:none;
 }
 
@@ -70,4 +70,28 @@ ul a:hover {
 
 
 /* Media Query */
+@media screen and (min-width: 64rem) {
+
+   ul.menu{
+    display:flex;
+    justify-content:space-between;
+    gap: 2rem;
+   }
+
+   header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem 12rem;
+   }
+
+   h1 {
+    align-items: center;
+    text-align: center;
+    margin: 0;
+   }
+
+}
 
